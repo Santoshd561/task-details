@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Icon, Modal, Button } from "antd";
-import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+import { Modal, Button } from "antd";
 import EditDetailsForm from "./EditDetailsForm";
 
 class Details extends Component {

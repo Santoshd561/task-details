@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import { Form, Formik, Field } from "formik";
 import * as Yup from "yup";
 import { InputComponent } from "../InputComponent";
-import { Button, Icon, Input, Modal } from "antd";
-
-const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
+import { Button } from "antd";
 
 const UpdateSchema = Yup.object().shape({
   full_name: Yup.string()
